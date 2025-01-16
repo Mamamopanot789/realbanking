@@ -1,0 +1,17 @@
+C:\Users\shili\source\repos\banking\banking\bin\Debug\banking.exe.config
+C:\Users\shili\source\repos\banking\banking\bin\Debug\banking.exe
+C:\Users\shili\source\repos\banking\banking\bin\Debug\banking.pdb
+C:\Users\shili\source\repos\banking\banking\obj\Debug\banking.csproj.AssemblyReference.cache
+C:\Users\shili\source\repos\banking\banking\obj\Debug\banking.Properties.Resources.resources
+C:\Users\shili\source\repos\banking\banking\obj\Debug\banking.csproj.GenerateResource.cache
+C:\Users\shili\source\repos\banking\banking\obj\Debug\banking.csproj.CoreCompileInputs.cache
+C:\Users\shili\source\repos\banking\banking\obj\Debug\banking.exe
+C:\Users\shili\source\repos\banking\banking\obj\Debug\banking.pdb
+C:\Users\shili\source\repos\banking\banking\obj\Debug\banking.Adminpanel.resources
+C:\Users\shili\source\repos\banking\banking\obj\Debug\banking.Signup.resources
+C:\Users\shili\source\repos\banking\banking\obj\Debug\banking.login.resources
+C:\Users\shili\source\repos\banking\banking\obj\Debug\banking.transactionhistory.resources
+C:\Users\shili\source\repos\banking\banking\obj\Debug\banking.Deposit.resources
+C:\Users\shili\source\repos\banking\banking\obj\Debug\banking.sendtoanotheracc.resources
+C:\Users\shili\source\repos\banking\banking\obj\Debug\banking.withdraw.resources
+C:\Users\shili\source\repos\banking\banking\obj\Debug\banking.transaction_home.resources
