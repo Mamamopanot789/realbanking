@@ -16,5 +16,12 @@ namespace banking
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            transaction_home transaction = new transaction_home();
+            transaction.Show();
+            this.Close();
+        }
     }
 }

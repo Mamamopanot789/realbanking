@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\realbanking\\banking\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|c:\\users\\administrator\\desktop\\realbanking\\banking\\transaction_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|C:\\Users\\Administrator\\Desktop\\realbanking\\banking\\transaction_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|solutionrelative:transaction_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -11,11 +11,11 @@
       "RelativeMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|solutionrelative:transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|C:\\Users\\Administrator\\Desktop\\realbanking\\banking\\withdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|c:\\users\\administrator\\desktop\\realbanking\\banking\\withdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|solutionrelative:withdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|C:\\Users\\Administrator\\Desktop\\realbanking\\banking\\withdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|c:\\users\\administrator\\desktop\\realbanking\\banking\\withdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|solutionrelative:withdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -86,7 +86,8 @@
               "RelativeToolTip": "withdraw.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAA1wBcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T10:05:12.217Z"
+              "WhenOpened": "2025-01-17T10:05:12.217Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -110,7 +111,8 @@
               "RelativeToolTip": "transactionhistory.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAIA+wBwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T09:52:45.913Z"
+              "WhenOpened": "2025-01-17T09:52:45.913Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -193,7 +195,8 @@
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\realbanking\\banking\\withdraw.cs [Design]",
               "RelativeToolTip": "withdraw.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T09:45:37.206Z"
+              "WhenOpened": "2025-01-17T09:45:37.206Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -204,7 +207,8 @@
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\realbanking\\banking\\transactionhistory.cs [Design]",
               "RelativeToolTip": "transactionhistory.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T09:45:35.697Z"
+              "WhenOpened": "2025-01-17T09:45:35.697Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",

@@ -59,9 +59,8 @@ namespace banking
 
            
             back.Show();
-
            
-            this.Hide();
+            this.Close();
         }
 
         private void button2_Click_1(object sender, EventArgs e)
@@ -71,8 +70,7 @@ namespace banking
 
             login.Show();
 
-
-            this.Hide();
+            this.Close();
         }
     }
 }

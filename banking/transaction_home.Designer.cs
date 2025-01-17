@@ -56,6 +56,7 @@
             this.button5.TabIndex = 11;
             this.button5.Text = "Log out";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -68,6 +69,7 @@
             this.button4.Size = new System.Drawing.Size(96, 60);
             this.button4.TabIndex = 10;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -80,6 +82,7 @@
             this.button3.Size = new System.Drawing.Size(96, 60);
             this.button3.TabIndex = 9;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -92,6 +95,7 @@
             this.button2.Size = new System.Drawing.Size(96, 60);
             this.button2.TabIndex = 8;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -104,15 +108,16 @@
             this.button1.Size = new System.Drawing.Size(96, 60);
             this.button1.TabIndex = 7;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Bodoni MT Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(141, 35);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 38);
+            this.label3.Size = new System.Drawing.Size(103, 37);
             this.label3.TabIndex = 14;
             this.label3.Text = "Name";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -121,11 +126,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Perpetua Titling MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label2.Location = new System.Drawing.Point(47, 195);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(234, 32);
+            this.label2.Size = new System.Drawing.Size(186, 31);
             this.label2.TabIndex = 13;
             this.label2.Text = "Cash amount";
             // 
@@ -133,10 +138,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Bodoni MT Condensed", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(45, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 38);
+            this.label1.Size = new System.Drawing.Size(159, 37);
             this.label1.TabIndex = 12;
             this.label1.Text = "Welcome,";
             // 
@@ -195,7 +200,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(330, 530);
+            this.ClientSize = new System.Drawing.Size(330, 529);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);

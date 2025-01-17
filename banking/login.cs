@@ -22,10 +22,6 @@ namespace banking
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -46,6 +42,13 @@ namespace banking
 
 
             this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+         transaction_home transaction = new transaction_home(); 
+            transaction.Show();
+            this.Hide();            
         }
     }
 }

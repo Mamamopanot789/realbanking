@@ -21,5 +21,12 @@ namespace banking
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            transaction_home transaction = new transaction_home();
+            transaction.Show();
+            this.Hide();
+        }
     }
 }

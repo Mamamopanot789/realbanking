@@ -19,7 +19,9 @@ namespace banking
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            transaction_home transaction_Home = new transaction_home();
+            transaction_Home.Show();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
