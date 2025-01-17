@@ -47,17 +47,18 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(66, 40);
+            this.label1.Font = new System.Drawing.Font("Modern No. 20", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.Location = new System.Drawing.Point(58, 40);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(236, 29);
+            this.label1.Size = new System.Drawing.Size(255, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Transaction History";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 193);
             this.dataGridView1.Name = "dataGridView1";
@@ -102,12 +103,13 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button1.Location = new System.Drawing.Point(233, 152);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(69, 28);
             this.button1.TabIndex = 6;
             this.button1.Text = "Load";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
@@ -138,7 +140,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(22, 19);
+            this.pictureBox1.Location = new System.Drawing.Point(17, 19);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(46, 50);
             this.pictureBox1.TabIndex = 9;

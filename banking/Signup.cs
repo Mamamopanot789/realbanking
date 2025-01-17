@@ -54,12 +54,25 @@ namespace banking
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            
+            login back = new login();
 
+           
+            back.Show();
+
+           
+            this.Hide();
         }
 
         private void button2_Click_1(object sender, EventArgs e)
         {
+            login login = new login();
 
+
+            login.Show();
+
+
+            this.Hide();
         }
     }
 }

@@ -57,35 +57,39 @@
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox1.Location = new System.Drawing.Point(73, 234);
+            this.textBox1.Location = new System.Drawing.Point(72, 237);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(227, 31);
+            this.textBox1.Size = new System.Drawing.Size(227, 22);
             this.textBox1.TabIndex = 5;
-            this.textBox1.Text = "\r\nUsername:";
+            this.textBox1.Text = "Username:";
             // 
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox2.Location = new System.Drawing.Point(72, 322);
+            this.textBox2.Location = new System.Drawing.Point(72, 328);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(227, 32);
+            this.textBox2.Size = new System.Drawing.Size(227, 22);
             this.textBox2.TabIndex = 6;
-            this.textBox2.Text = "\r\nPassword:";
+            this.textBox2.Text = "Password:";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(103, 408);
+            this.button1.Font = new System.Drawing.Font("Perpetua Titling MT", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.Location = new System.Drawing.Point(105, 409);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(124, 45);
             this.button1.TabIndex = 7;
@@ -104,6 +108,7 @@
             this.linkLabel1.TabIndex = 8;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Sign in.";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // label3
             // 
@@ -145,6 +150,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Perpetua", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label1.Location = new System.Drawing.Point(121, 106);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(98, 40);

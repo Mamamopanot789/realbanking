@@ -42,7 +42,7 @@
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Location = new System.Drawing.Point(93, 39);
+            this.panel2.Location = new System.Drawing.Point(98, 22);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(136, 101);
             this.panel2.TabIndex = 10;
@@ -51,12 +51,13 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(108, 143);
+            this.label1.Font = new System.Drawing.Font("Perpetua Titling MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.Location = new System.Drawing.Point(80, 119);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(111, 25);
+            this.label1.Size = new System.Drawing.Size(189, 32);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Withdraw";
+            this.label1.Text = "WITHDRAW";
             // 
             // button2
             // 
@@ -86,19 +87,20 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(116, 292);
+            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label2.Location = new System.Drawing.Point(113, 251);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 24);
+            this.label2.Size = new System.Drawing.Size(106, 26);
             this.label2.TabIndex = 7;
             this.label2.Text = "AMOUNT";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(39, 319);
+            this.textBox1.Location = new System.Drawing.Point(37, 278);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(253, 32);
+            this.textBox1.Size = new System.Drawing.Size(253, 28);
             this.textBox1.TabIndex = 6;
             // 
             // withdraw
@@ -106,6 +108,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(330, 530);
             this.Controls.Add(this.panel2);

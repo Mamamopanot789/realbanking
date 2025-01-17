@@ -36,5 +36,16 @@ namespace banking
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Signup sign = new Signup();
+
+
+            sign.Show();
+
+
+            this.Hide();
+        }
     }
 }

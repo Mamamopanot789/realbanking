@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|c:\\users\\jl\\source\\repos\\realbanking\\banking\\adminpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|solutionrelative:adminpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|c:\\users\\jl\\source\\repos\\realbanking\\banking\\withdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|solutionrelative:withdraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|c:\\users\\jl\\source\\repos\\realbanking\\banking\\sendtoanotheracc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|solutionrelative:sendtoanotheracc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|c:\\users\\jl\\source\\repos\\realbanking\\banking\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|solutionrelative:deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|c:\\users\\jl\\source\\repos\\realbanking\\banking\\transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|solutionrelative:transactionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|c:\\users\\jl\\source\\repos\\realbanking\\banking\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|c:\\users\\jl\\source\\repos\\realbanking\\banking\\transaction_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|solutionrelative:transaction_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|c:\\users\\jl\\source\\repos\\realbanking\\banking\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{87969490-A287-4598-A198-158F3744CF06}|banking.csproj|solutionrelative:signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "transactionhistory.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\transactionhistory.cs",
+              "RelativeDocumentMoniker": "transactionhistory.cs",
+              "ToolTip": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\transactionhistory.cs [Design]",
+              "RelativeToolTip": "transactionhistory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:09:44.566Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\login.cs",
+              "RelativeDocumentMoniker": "login.cs",
+              "ToolTip": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\login.cs [Design]",
+              "RelativeToolTip": "login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:09:39.462Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Deposit.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\Deposit.cs",
+              "RelativeDocumentMoniker": "Deposit.cs",
+              "ToolTip": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\Deposit.cs [Design]",
+              "RelativeToolTip": "Deposit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:09:37.128Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "sendtoanotheracc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\sendtoanotheracc.cs",
+              "RelativeDocumentMoniker": "sendtoanotheracc.cs",
+              "ToolTip": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\sendtoanotheracc.cs [Design]",
+              "RelativeToolTip": "sendtoanotheracc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:09:26.427Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "withdraw.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\withdraw.cs",
+              "RelativeDocumentMoniker": "withdraw.cs",
+              "ToolTip": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\withdraw.cs [Design]",
+              "RelativeToolTip": "withdraw.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:09:45.266Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Adminpanel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\Adminpanel.cs",
+              "RelativeDocumentMoniker": "Adminpanel.cs",
+              "ToolTip": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\Adminpanel.cs [Design]",
+              "RelativeToolTip": "Adminpanel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:09:36.109Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "transaction_home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\transaction_home.cs",
+              "RelativeDocumentMoniker": "transaction_home.cs",
+              "ToolTip": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\transaction_home.cs [Design]",
+              "RelativeToolTip": "transaction_home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:09:43.94Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Signup.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\Signup.cs",
+              "RelativeDocumentMoniker": "Signup.cs",
+              "ToolTip": "C:\\Users\\JL\\source\\repos\\realbanking\\banking\\Signup.cs [Design]",
+              "RelativeToolTip": "Signup.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:09:43.033Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

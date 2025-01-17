@@ -44,19 +44,20 @@
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Location = new System.Drawing.Point(96, 21);
+            this.panel2.Location = new System.Drawing.Point(111, 18);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(136, 101);
+            this.panel2.Size = new System.Drawing.Size(111, 66);
             this.panel2.TabIndex = 11;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(117, 122);
+            this.label1.Font = new System.Drawing.Font("Perpetua", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.Location = new System.Drawing.Point(110, 88);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 72);
+            this.label1.Size = new System.Drawing.Size(125, 84);
             this.label1.TabIndex = 0;
             this.label1.Text = "Transfer to\r\n Another\r\n Account";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -107,10 +108,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Nirmala Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(110, 263);
+            this.label2.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label2.Location = new System.Drawing.Point(97, 261);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 17);
+            this.label2.Size = new System.Drawing.Size(150, 22);
             this.label2.TabIndex = 6;
             this.label2.Text = "Account Number";
             // 
@@ -118,10 +120,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Nirmala Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(135, 334);
+            this.label3.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label3.Location = new System.Drawing.Point(128, 331);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 17);
+            this.label3.Size = new System.Drawing.Size(77, 22);
             this.label3.TabIndex = 7;
             this.label3.Text = "Amount\r\n";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -131,6 +134,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(330, 530);
             this.Controls.Add(this.panel2);
