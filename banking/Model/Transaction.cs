@@ -64,6 +64,9 @@ namespace banking.model
         }
 
         // Constructor to initialize all the fields
+
+        public Transaction() { }
+
         public Transaction(string transactionId, string transactionType, string accountId, string receiverId,
                            string status, DateTime createdAt, DateTime updatedAt, decimal amount)
         {

@@ -12,15 +12,16 @@ namespace banking.model
         private string firstName;
         private string middleName;
         private string lastName;
-        private int accountNumber;
+        private string accountNumber;
         private string status;
         private string pinNumber;
         private string q1;
         private string q2;
         private string a1;
         private string a2;
-        private DateTime createdBy;
+        private DateTime createdAt;
         private DateTime updatedAt;
+
         public string AccountId
         {
             get { return accountId; }
@@ -45,7 +46,7 @@ namespace banking.model
             set { lastName = value; }
         }
 
-        public int AccountNumber
+        public string AccountNumber
         {
             get { return accountNumber; }
             set { accountNumber = value; }
@@ -90,8 +91,8 @@ namespace banking.model
 
         public DateTime CreatedBy
         {
-            get { return createdBy; }
-            set { createdBy = value; }
+            get { return createdAt; }
+            set { createdAt = value; }
         }
 
         public DateTime UpdatedAt
@@ -100,8 +101,10 @@ namespace banking.model
             set { updatedAt = value; }
         }
 
+        public Account() { }
+
         // Constructor to initialize all the fields
-        public Account(string accountId, string firstName, string middleName, string lastName, int accountNumber, string status,
+        public Account(string accountId, string firstName, string middleName, string lastName, string accountNumber, string status,
                        string pinNumber, string q1, string q2, string a1, string a2, DateTime createdBy, DateTime updatedAt)
         {
             this.accountId = accountId;
@@ -115,7 +118,7 @@ namespace banking.model
             this.q2 = q2;
             this.a1 = a1;
             this.a2 = a2;
-            this.createdBy = createdBy;
+            this.createdAt = createdBy;
             this.updatedAt = updatedAt;
         }
 
@@ -123,7 +126,12 @@ namespace banking.model
         public override string ToString()
         {
             return $"Account ID: {accountId}, Full Name: {firstName} {middleName} {lastName}, Account Number: {accountNumber}, Status: {status}, " +
-                   $"PIN: {pinNumber}, Security Q1: {q1}, Security Q2: {q2}, A1: {a1}, A2: {a2}, Created On: {createdBy}, Last Updated: {updatedAt}";
+                   $"PIN: {pinNumber}, Security Q1: {q1}, Security Q2: {q2}, A1: {a1}, A2: {a2}, Created On: {createdAt}, Last Updated: {updatedAt}";
+        }
+
+        public string FullName()
+        {
+            return $"{firstName} {lastName}";
         }
     }
 }

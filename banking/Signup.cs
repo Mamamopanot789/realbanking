@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using banking.model;
 
 namespace banking
 {
     public partial class Signup : Form
     {
+
+        private readonly AccountRepository accountRepository = new AccountRepository(); 
+        
         public Signup()
         {
             InitializeComponent();
@@ -68,9 +72,61 @@ namespace banking
             login login = new login();
 
 
-            login.Show();
+            if (String.IsNullOrEmpty(textBox1.Text) ||
+                String.IsNullOrEmpty(textBox2.Text) ||
+                String.IsNullOrEmpty(textBox3.Text) ||
+                String.IsNullOrEmpty(maskedTextBox1.Text) ||
+                String.IsNullOrEmpty(maskedTextBox2.Text) ||
+                String.IsNullOrEmpty(textBox6.Text) ||
+                String.IsNullOrEmpty(textBox7.Text) ||
+                String.IsNullOrEmpty(comboBox1.Text) ||
+                String.IsNullOrEmpty(comboBox2.Text)
+                ) {
+                MessageBox.Show("All fields are required. Please fill them in.");
+                return;
+            }
 
+            if(maskedTextBox1.Text.Trim().Length != 13 )
+            {
+                MessageBox.Show("The Number Should Be 12 Digit");
+                return ;
+            }
+
+            if (maskedTextBox2.Text.Trim().Length != 6)
+            {
+                MessageBox.Show("The Pin code should be 6 digit");
+                return;
+            }
+
+            Account accountChecker = accountRepository.GetAccountByAccountNumber(maskedTextBox1.Text);
+
+            if (accountChecker != null) {
+                MessageBox.Show("The Account Number Is Already Taken");
+                return;
+            }
+            //return;
+
+            Account account = new Account();
+            account.FirstName = textBox1.Text;
+            account.MiddleName = textBox2.Text;
+            account.LastName = textBox3.Text;
+            account.AccountNumber = maskedTextBox1.Text; // Ensure valid integer
+            account.Status = comboBox1.Text; // Assuming this is for status (e.g., Active/Inactive)
+            account.PinNumber = maskedTextBox2.Text;
+            account.Q1 = comboBox2.Text; // Assuming this is for security question 1
+            account.A1 = textBox6.Text; // Answer for security question 1
+            account.Q2 = textBox7.Text; // Security question 2 text
+            account.A2 = textBox7.Text; // Answer for security question 
+
+            accountRepository.AddAccount(account);
+
+            MessageBox.Show("Account Has Been Created");
+
+            login.Show();
+            
             this.Close();
+
+
         }
     }
 }

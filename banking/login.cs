@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using banking.model;
 
 namespace banking
 {
     public partial class login : Form
     {
+        private readonly AccountRepository accountRepository = new AccountRepository();
         public login()
         {
             InitializeComponent();
@@ -46,9 +48,24 @@ namespace banking
 
         private void button1_Click(object sender, EventArgs e)
         {
-         transaction_home transaction = new transaction_home(); 
+
+            Account account = accountRepository.Login(maskedTextBox1.Text,textBox1.Text);
+
+
+            if (account == null)
+            {
+                MessageBox.Show("Wrong Account Number or Pin Number");
+                return;
+            }
+
+         transaction_home transaction = new transaction_home(account); 
             transaction.Show();
             this.Hide();            
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

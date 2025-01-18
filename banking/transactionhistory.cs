@@ -7,14 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using banking.model;
 
 namespace banking
 {
     public partial class transactionhistory : Form
     {
-        public transactionhistory()
+        private Account currentAccount;
+        private readonly TransactionRepository transactionRepository = new TransactionRepository(); 
+
+        public transactionhistory(Account currentAccount)
         {
             InitializeComponent();
+            this.currentAccount = currentAccount;
+            dataGridView1.DataSource = transactionRepository.GetAllTransactionsByAccountId(currentAccount.AccountId);
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -24,7 +30,7 @@ namespace banking
 
         private void button2_Click(object sender, EventArgs e)
         {
-            transaction_home transaction = new transaction_home();
+            transaction_home transaction = new transaction_home(currentAccount);
             transaction.Show();
             this.Hide();
         }

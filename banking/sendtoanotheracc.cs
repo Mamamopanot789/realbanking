@@ -7,14 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using banking.model;
 
 namespace banking
 {
     public partial class sendtoanotheracc : Form
     {
-        public sendtoanotheracc()
+        private Account currentAccount;
+
+        public sendtoanotheracc(Account currentAccount)
         {
             InitializeComponent();
+            this.currentAccount = currentAccount;
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -34,7 +38,7 @@ namespace banking
 
         private void button1_Click(object sender, EventArgs e)
         {
-            transaction_home transaction_Home = new transaction_home();
+            transaction_home transaction_Home = new transaction_home(currentAccount);
             transaction_Home.Show();
             this.Close();
         }
