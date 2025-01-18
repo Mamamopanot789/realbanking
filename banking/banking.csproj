@@ -59,6 +59,10 @@
     <Compile Include="Deposit.Designer.cs">
       <DependentUpon>Deposit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\Account.cs" />
+    <Compile Include="Model\Transaction.cs" />
+    <Compile Include="Repository\AccountRepository.cs" />
+    <Compile Include="Repository\TransactionRepository.cs" />
     <Compile Include="sendtoanotheracc.cs">
       <SubType>Form</SubType>
     </Compile>
