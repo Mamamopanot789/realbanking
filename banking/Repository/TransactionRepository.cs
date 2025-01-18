@@ -22,7 +22,7 @@ namespace banking.model
             string query = @"INSERT INTO Tbl_Transaction (transactionId, transactionType, accountId, receiverId, status, createdAt, updatedAt, amount)
                              VALUES (@transactionId, 'Deposit', @accountId, NULL, 'Success', @createdAt, @updatedAt, @amount)";
 
-            using (SqlConnection connection = new SqlConnection(connectionString)) 
+            using (SqlConnection connection = new SqlConnection(connectionString))
             using (SqlCommand command = new SqlCommand(query, connection))
             {
                 command.Parameters.AddWithValue("@transactionId", Guid.NewGuid().ToString());
@@ -123,6 +123,31 @@ namespace banking.model
             }
 
             return transactions;
+        } 
+
+
+    public decimal GetTotalMoneyByAccountId(string accountId)
+        {
+            // Retrieve all transactions for the account
+            List<Transaction> transactions = GetAllTransactionsByAccountId(accountId);
+
+            // Initialize the total balance
+            decimal totalMoney = 0;
+
+            // Calculate total using a loop
+            foreach (var transaction in transactions)
+            {
+                if (transaction.TransactionType == "Deposit")
+                {
+                    totalMoney += transaction.Amount;
+                }
+                else if (transaction.TransactionType == "Withdraw")
+                {
+                    totalMoney -= transaction.Amount;
+                }
+            }
+
+            return totalMoney;
         }
     }
 }

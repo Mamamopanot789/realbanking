@@ -14,6 +14,7 @@ namespace banking
     public partial class transaction_home : Form
     {
         private Account currentAccount;
+        private TransactionRepository transactionRepository = new TransactionRepository();
 
         public transaction_home(Account currentAccount)
         {
@@ -22,6 +23,7 @@ namespace banking
             //Console.WriteLine(
             //currentAccount.ToString());
             label3.Text = currentAccount != null ? currentAccount.FullName() : null ;
+            label8.Text = transactionRepository.GetTotalMoneyByAccountId(currentAccount.AccountId).ToString("F2");
         }
 
         private void transaction_home_Load(object sender, EventArgs e)
