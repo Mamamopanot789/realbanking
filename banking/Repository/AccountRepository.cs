@@ -190,7 +190,74 @@ namespace banking.model
                 return null;
             }
             
-            
         }
+
+        public string GetAccountNumberByAccountId(string accountId)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    string query = "SELECT accountNumber FROM Tbl_Account WHERE accountId = @accountId";
+
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@accountId", accountId);
+
+                        connection.Open();
+                        object result = command.ExecuteScalar();
+
+                        if (result != null && result != DBNull.Value)
+                        {
+                            return result.ToString();
+                        }
+                        else
+                        {
+                            throw new Exception($"No account found for account ID: {accountId}");
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error fetching accountNumber: {ex.Message}");
+                return null;
+            }
+        }
+        public string GetAccountIdByAccountNumber(string accountNumber)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    string query = "SELECT accountId FROM Tbl_Account WHERE accountNumber = @accountNumber";
+
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@accountNumber", accountNumber);
+
+                        connection.Open();
+                        object result = command.ExecuteScalar();
+
+                        if (result != null && result != DBNull.Value)
+                        {
+                            return result.ToString();
+                        }
+                        else
+                        {
+                            throw new Exception($"No account found for account number: {accountNumber}");
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error fetching accountId: {ex.Message}");
+                throw;
+            }
+        }
+
+
+
     }
 }

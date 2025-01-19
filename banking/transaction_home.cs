@@ -20,8 +20,6 @@ namespace banking
         {
             InitializeComponent();
             this.currentAccount = currentAccount;
-            //Console.WriteLine(
-            //currentAccount.ToString());
             label3.Text = currentAccount != null ? currentAccount.FullName() : null ;
             label8.Text = transactionRepository.GetTotalMoneyByAccountId(currentAccount.AccountId).ToString("F2");
         }
@@ -38,7 +36,7 @@ namespace banking
 
         private void button5_Click(object sender, EventArgs e)
         {
-            this.Close();
+            System.Windows.Forms.Application.Exit();
         }
 
         private void button1_Click(object sender, EventArgs e)
