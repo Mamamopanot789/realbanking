@@ -76,7 +76,8 @@ namespace banking
                 String.IsNullOrEmpty(textBox2.Text) ||
                 String.IsNullOrEmpty(textBox3.Text) ||
                 String.IsNullOrEmpty(maskedTextBox1.Text) ||
-                String.IsNullOrEmpty(maskedTextBox2.Text) ||
+                String.IsNullOrEmpty(textBox4.Text) ||
+                String.IsNullOrEmpty(textBox5.Text) ||
                 String.IsNullOrEmpty(textBox6.Text) ||
                 String.IsNullOrEmpty(textBox7.Text) ||
                 String.IsNullOrEmpty(comboBox1.Text) ||
@@ -92,7 +93,7 @@ namespace banking
                 return ;
             }
 
-            if (maskedTextBox2.Text.Trim().Length != 6)
+            if (textBox4.Text.Trim().Length != 6)
             {
                 MessageBox.Show("The Pin code should be 6 digit");
                 return;
@@ -106,16 +107,22 @@ namespace banking
             }
             //return;
 
+            if (textBox4.Text != textBox5.Text)
+            {
+                MessageBox.Show("The Pin Number Are Not Same");
+                return;
+            }
+
             Account account = new Account();
             account.FirstName = textBox1.Text;
             account.MiddleName = textBox2.Text;
             account.LastName = textBox3.Text;
             account.AccountNumber = maskedTextBox1.Text; // Ensure valid integer
             account.Status = comboBox1.Text; // Assuming this is for status (e.g., Active/Inactive)
-            account.PinNumber = maskedTextBox2.Text;
-            account.Q1 = comboBox2.Text; // Assuming this is for security question 1
+            account.PinNumber = textBox4.Text;
+            account.Q1 = comboBox1.Text; // Assuming this is for security question 1
             account.A1 = textBox6.Text; // Answer for security question 1
-            account.Q2 = textBox7.Text; // Security question 2 text
+            account.Q2 = comboBox2.Text; // Security question 2 text
             account.A2 = textBox7.Text; // Answer for security question 
 
             accountRepository.AddAccount(account);

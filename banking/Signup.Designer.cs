@@ -55,7 +55,9 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,7 +77,7 @@
             this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.Green;
-            this.button2.Location = new System.Drawing.Point(186, 618);
+            this.button2.Location = new System.Drawing.Point(186, 640);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(97, 43);
             this.button2.TabIndex = 34;
@@ -88,7 +90,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button1.Location = new System.Drawing.Point(52, 618);
+            this.button1.Location = new System.Drawing.Point(52, 640);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(97, 43);
             this.button1.TabIndex = 33;
@@ -211,7 +213,7 @@
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(2, 410);
+            this.label6.Location = new System.Drawing.Point(4, 403);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(80, 16);
             this.label6.TabIndex = 40;
@@ -227,8 +229,8 @@
             "What is the name of the street you grew up on?",
             "What was the name of your elementary school?",
             "What is your favorite movie?"});
-            this.comboBox1.Location = new System.Drawing.Point(80, 450);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Location = new System.Drawing.Point(80, 472);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(225, 21);
             this.comboBox1.TabIndex = 42;
@@ -243,8 +245,8 @@
             "What is the name of the street you grew up on?",
             "What was the name of your elementary school?",
             "What is your favorite movie?"});
-            this.comboBox2.Location = new System.Drawing.Point(83, 532);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox2.Location = new System.Drawing.Point(83, 554);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(214, 21);
             this.comboBox2.TabIndex = 43;
@@ -254,7 +256,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(0, 450);
+            this.label7.Location = new System.Drawing.Point(0, 472);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(73, 16);
             this.label7.TabIndex = 44;
@@ -265,7 +267,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(1, 534);
+            this.label8.Location = new System.Drawing.Point(1, 556);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(73, 16);
             this.label8.TabIndex = 45;
@@ -274,7 +276,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel6.Location = new System.Drawing.Point(83, 509);
+            this.panel6.Location = new System.Drawing.Point(83, 531);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(214, 1);
             this.panel6.TabIndex = 42;
@@ -283,7 +285,7 @@
             // 
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(85, 486);
+            this.textBox6.Location = new System.Drawing.Point(85, 508);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(208, 24);
@@ -294,7 +296,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(5, 494);
+            this.label9.Location = new System.Drawing.Point(5, 516);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(64, 16);
             this.label9.TabIndex = 43;
@@ -303,7 +305,7 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel7.Location = new System.Drawing.Point(81, 585);
+            this.panel7.Location = new System.Drawing.Point(81, 607);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(214, 1);
             this.panel7.TabIndex = 45;
@@ -312,7 +314,7 @@
             // 
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(84, 562);
+            this.textBox7.Location = new System.Drawing.Point(84, 584);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(208, 24);
@@ -323,7 +325,7 @@
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(3, 570);
+            this.label10.Location = new System.Drawing.Point(3, 592);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(64, 16);
             this.label10.TabIndex = 46;
@@ -334,22 +336,40 @@
             this.maskedTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.maskedTextBox1.Location = new System.Drawing.Point(119, 369);
-            this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.maskedTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.maskedTextBox1.Mask = "0000-000-0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(138, 15);
             this.maskedTextBox1.TabIndex = 48;
             // 
-            // maskedTextBox2
+            // textBox4
             // 
-            this.maskedTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.maskedTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.maskedTextBox2.Location = new System.Drawing.Point(85, 411);
-            this.maskedTextBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.maskedTextBox2.Mask = "000000";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(153, 15);
-            this.maskedTextBox2.TabIndex = 49;
+            this.textBox4.Location = new System.Drawing.Point(95, 402);
+            this.textBox4.MaxLength = 6;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.PasswordChar = '*';
+            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.TabIndex = 49;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(136, 436);
+            this.textBox5.MaxLength = 6;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.PasswordChar = '*';
+            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.TabIndex = 51;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(2, 437);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(128, 16);
+            this.label11.TabIndex = 50;
+            this.label11.Text = "Confirm Pin Number:";
             // 
             // Signup
             // 
@@ -360,6 +380,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(330, 530);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.panel6);
@@ -385,7 +408,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.maskedTextBox2);
             this.Controls.Add(this.maskedTextBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Signup";
@@ -426,7 +448,9 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label11;
     }
 }
 

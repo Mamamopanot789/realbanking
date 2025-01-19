@@ -58,6 +58,13 @@ namespace banking
                 return;
             }
 
+            if (account.AccountNumber == "0000-000-0000")
+            {
+                Adminpanel adminpanel = new Adminpanel();
+                adminpanel.Show();
+                return;
+            }
+
          transaction_home transaction = new transaction_home(account); 
             transaction.Show();
             this.Hide();            
@@ -65,7 +72,14 @@ namespace banking
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            this.Close();
+            System.Windows.Forms.Application.Exit();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ForgotPass forgotPass = new ForgotPass();
+            forgotPass.Show();
+            this.Hide();
         }
     }
 }

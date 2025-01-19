@@ -63,6 +63,16 @@ namespace banking.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bg_bank {
+            get {
+                object obj = ResourceManager.GetObject("Bg_bank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image__6_ {
             get {
                 object obj = ResourceManager.GetObject("image (6)", resourceCulture);

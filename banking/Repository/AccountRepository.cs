@@ -258,6 +258,35 @@ namespace banking.model
         }
 
 
+        public bool UpdateAccountPinByAccountNumber(string accountNumber, string newPinNumber)
+        {
+            try
+            {
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    string query = @"UPDATE Tbl_Account 
+                             SET pinNumber = @newPinNumber, updatedAt = @updatedAt
+                             WHERE accountNumber = @accountNumber";
+
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@accountNumber", accountNumber);
+                        command.Parameters.AddWithValue("@newPinNumber", newPinNumber);
+                        command.Parameters.AddWithValue("@updatedAt", DateTime.Now);
+
+                        connection.Open();
+                        int rowsAffected = command.ExecuteNonQuery();
+
+                        return rowsAffected > 0; // Returns true if at least one row was updated
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error updating PIN: {ex.Message}");
+                return false; // Returns false if there was an exception
+            }
+        }
 
     }
 }
