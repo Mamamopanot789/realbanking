@@ -39,7 +39,13 @@ namespace banking
                 MessageBox.Show("The money should not be 0");
                 return;
             }
+            decimal currentMoney = transactionRepository.GetTotalMoneyByAccountId(currentAccount.AccountId);
 
+            if (currentMoney < amount)
+            {
+                MessageBox.Show("You Don't Have Enough Money");
+                return;
+            }
 
             MessageBox.Show("Withdrawn Money");
             transactionRepository.Withdraw(currentAccount.AccountId, amount);

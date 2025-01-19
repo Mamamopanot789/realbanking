@@ -59,7 +59,13 @@ namespace banking
                 return;
 
             }
+            decimal currentMoney = transactionRepository.GetTotalMoneyByAccountId(currentAccount.AccountId);
 
+            if (currentMoney < amount)
+            {
+                MessageBox.Show("You Don't Have Enough Money");
+                return;
+            }
 
             transactionRepository.TransferMoney(currentAccount.AccountId, maskedTextBox1.Text, amount);
             MessageBox.Show("Transfer Have Been Successfull");
