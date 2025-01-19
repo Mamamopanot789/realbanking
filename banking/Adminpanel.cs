@@ -8,18 +8,20 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using banking.model;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace banking
 {
     public partial class Adminpanel : Form
     {
         private readonly AccountRepository accountRepository = new AccountRepository();
+        private List<Account> accountList;
 
         public Adminpanel()
         {
             InitializeComponent();
-
-            InsertDataGrid(accountRepository.GetAllAccount());
+            accountList = accountRepository.GetAllAccount();
+            InsertDataGrid(accountList);
         }
 
         private void InsertDataGrid (List<Account> accounts)
@@ -41,6 +43,27 @@ namespace banking
             login login = new login();
             login.Show();
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            string search;
+
+            search = maskedTextBox1.Text;
+            var updatedList = accountList
+               .Where(account => account.AccountNumber.ToString().Contains(search))
+               .ToList();
+
+            if (updatedList == null)
+            {
+                InsertDataGrid(accountList);
+                return;
+            }
+
+            InsertDataGrid(updatedList);
+
+
         }
     }
 }

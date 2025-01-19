@@ -107,5 +107,25 @@ namespace banking
             login.Show();
             this.Close();
         }
+
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true;
+                MessageBox.Show("This Field Only Allow Numbers");
+                return;
+            }
+        }
+
+        private void textBox4_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true;
+                MessageBox.Show("This Field Only Allow Numbers");
+                return;
+            }
+        }
     }
 }
