@@ -42,6 +42,7 @@ namespace banking
             if(currentAccount == null)
             {
                 MessageBox.Show("There is no Account With this number");
+                return;
             }
 
             maskedTextBox1.ReadOnly = true;

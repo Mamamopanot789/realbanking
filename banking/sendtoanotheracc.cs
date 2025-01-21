@@ -44,6 +44,13 @@ namespace banking
                 return;
             }
 
+            if(String.IsNullOrEmpty(textBox2.Text))
+            {
+                MessageBox.Show("Pls Fill In The Amount");
+                return;
+
+            }
+
             amount = decimal.Parse(textBox2.Text);
 
             if (amount < 0)
