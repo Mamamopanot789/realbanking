@@ -62,7 +62,10 @@ namespace banking.model
         {
             List<Transaction> transactions = new List<Transaction>();
             string query = @"SELECT transactionId, transactionType, accountId, receiverId, status, createdAt, updatedAt, amount
-                             FROM Tbl_Transaction WHERE accountId = @accountId";
+                 FROM Tbl_Transaction 
+                 WHERE accountId = @accountId
+                 ORDER BY createdAt DESC";
+
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             using (SqlCommand command = new SqlCommand(query, connection))

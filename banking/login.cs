@@ -61,7 +61,7 @@ namespace banking
             if (account.AccountNumber == "0000-000-0000")
             {
                 Adminpanel adminpanel = new Adminpanel();
-                adminpanel.Show();
+                adminpanel.ShowDialog();
                 return;
             }
 
@@ -78,8 +78,8 @@ namespace banking
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             ForgotPass forgotPass = new ForgotPass();
-            forgotPass.Show();
-            this.Close();
+            forgotPass.ShowDialog();
+            this.Hide();
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
