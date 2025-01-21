@@ -24,7 +24,7 @@ namespace banking
             InsertDataGrid(accountList);
         }
 
-        private void InsertDataGrid (List<Account> accounts)
+        private void InsertDataGrid(List<Account> accounts)
         {
             dataGridView1.Rows.Clear();
 
@@ -50,7 +50,9 @@ namespace banking
 
             string search;
 
-            search = maskedTextBox1.Text;
+            search = textBox1.Text;
+
+
             var updatedList = accountList
                .Where(account => account.AccountNumber.ToString().Contains(search))
                .ToList();
@@ -62,8 +64,17 @@ namespace banking
             }
 
             InsertDataGrid(updatedList);
+        }
 
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true;
+                MessageBox.Show("This Field Only Allow Numbers");
+                return;
 
+            }
         }
     }
 }

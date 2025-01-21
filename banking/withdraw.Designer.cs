@@ -42,10 +42,9 @@
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Location = new System.Drawing.Point(147, 34);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel2.Location = new System.Drawing.Point(98, 22);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(204, 155);
+            this.panel2.Size = new System.Drawing.Size(136, 101);
             this.panel2.TabIndex = 10;
             // 
             // label1
@@ -54,10 +53,9 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Perpetua", 20.25F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(136, 192);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(91, 125);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(240, 47);
+            this.label1.Size = new System.Drawing.Size(162, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "WITHDRAW";
             // 
@@ -66,10 +64,9 @@
             this.button2.BackColor = System.Drawing.SystemColors.Control;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.Green;
-            this.button2.Location = new System.Drawing.Point(279, 694);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Location = new System.Drawing.Point(186, 451);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(156, 60);
+            this.button2.Size = new System.Drawing.Size(104, 39);
             this.button2.TabIndex = 9;
             this.button2.Text = "Send";
             this.button2.UseVisualStyleBackColor = false;
@@ -80,10 +77,9 @@
             this.button1.BackColor = System.Drawing.SystemColors.Control;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(62, 694);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(41, 451);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(156, 60);
+            this.button1.Size = new System.Drawing.Size(104, 39);
             this.button1.TabIndex = 8;
             this.button1.Text = "Back";
             this.button1.UseVisualStyleBackColor = false;
@@ -95,31 +91,29 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(170, 386);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(113, 251);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(159, 39);
+            this.label2.Size = new System.Drawing.Size(106, 26);
             this.label2.TabIndex = 7;
             this.label2.Text = "AMOUNT";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(56, 428);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox1.Location = new System.Drawing.Point(37, 278);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(378, 41);
+            this.textBox1.Size = new System.Drawing.Size(253, 28);
             this.textBox1.TabIndex = 6;
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // withdraw
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(495, 815);
+            this.ClientSize = new System.Drawing.Size(330, 530);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
@@ -128,7 +122,6 @@
             this.Controls.Add(this.button1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "withdraw";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Withdraw";

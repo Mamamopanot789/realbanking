@@ -79,7 +79,7 @@ namespace banking
         {
             ForgotPass forgotPass = new ForgotPass();
             forgotPass.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
